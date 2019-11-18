@@ -1,0 +1,9 @@
+[
+  [ "always", null, "set_disqualified", false],
+  [ "always", null, "set_interest", 5.0 ],
+  [ "state=", "Florida", "set_disqualified", true ],
+  [ "credit_score>=", 720, "add_interest", -0.3 ],
+  [ "credit_score<", 720, "add_interest", 0.5  ],
+  [ "product=", "7-1 ARM", "add_interest", 0.5 ]
+]
+
